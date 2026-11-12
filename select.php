@@ -36,7 +36,7 @@
                                                 // ຖ້າຈະຮ້ອງໃຊ້ ເລກ 5 ໃນຕາຕະລາງ count(*) ຂອງ $select_count ຕ້ອງໃຊ້ $count[0] ເພາະ mysqli_fatch_array ຈະເກັບຂໍ້ມູນລົງໃນຕົວປຽນ ແລະ ຕົວປຽນນັ້ນ ຈະຮ້ອງໃຊ້ໄດ້ ໃນຮູບແບບ array 
     ?>
     <div class="container py-4">
-        <div class="card report-card">
+         <div class="card report-card">   <!-- class report-card ບໍ່ມີຫຍັງເລຍ ເປັນ class ທີ່ຈະເອົາໄປຕົກແຕ່ງເອງບໍ່ແມ່ນຂອງ bootstrap -->
             <div class=" card-header py-3">
                 <h3 class="text-center mb-0">
                     ລາຍງານຂໍ້ມູນ
@@ -54,7 +54,7 @@
                         </span> ຫ້ອງ
                     </h5>
                 </div>
-                    <a href="forminsertroom.php" class="btn btn-success" class="btn btn-warning btn-sm ">
+                    <a href="forminsertroom.php" class="btn btn-success " class="btn btn-warning btn-sm ">
                         <i class="fas fa-plus"></i> ເພີ່ມຂໍ້ມູນ
                     </a>
             </div>
